@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  background-image: url(../man-aset/man-bg.svg);
+  background-size: cover;
+}
+
+.card {
+  margin: auto;
+  min-width: 1000px;
+  max-width: 1200px;
+  min-height: 550px;
+  max-height: 800px;
+  box-shadow: 2px 4px 21px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transform: translateY(5%);
+  border-radius: 10px;
+  display: flex;
+  /* align-items: center; */
+}
+
+.product-foto > img {
+  margin-left: 50px;
+  margin-top: 100px;
+  height: 300px;
+}
+
+.description {
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.tittle {
+  margin-top: 50px;
+  margin-bottom: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #002772;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.category > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f3f3f;
+  margin-right: 3px;
+}
+
+.circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.rat-full {
+  border: 1px solid #002772;
+  background-color: #002772;
+}
+
+.rat-border {
+  border: 1px solid #002772;
+}
+
+line {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e1e1e;
+  margin-bottom: 108px;
+}
+
+.product-price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #002772;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.btn-buy {
+  width: 200px;
+  height: 40px;
+  background: #002772;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn-next {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #002772;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #002772;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.unavail,
+.sorry-msg {
+  display: none;
+}
